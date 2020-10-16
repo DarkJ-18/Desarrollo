@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    background: #b9d3f1;
+}
+
+.cta1, .cta2{
+    margin: 10px;
+    display: inline-block;
+    padding: 7px 0;
+    width: 100px;
+    border: 1px solid #1c29e2ea;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background: #1c29e2ea;
+    box-shadow: 1px 1px 15px #00000077;
+}
+
+.cta1:hover, .cta2:hover{
+    box-shadow: 0.5px 0.5px 10px #0000007a;
+    
+
+}
+
+
+/* ------------------Diseño menu------------------ */
+.navegacion{
+    width: 1025px auto;
+    height: 64px auto;
+    margin: 0px auto;
+    background: #1c29e2ea;
+    border-color: #000000;
+    border-width: 1.2px;
+    border-style: solid;   
+    
+}
+
+.navegacion>ul{
+    list-style: none;
+   
+}
+
+.menu>li{
+    position: relative;
+    display:  inline-block;
+  margin-top: 5px;
+}
+
+.menu >li >a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+.menu li a:hover{
+    color: #fdfdfd;
+    transition: all .3s;
+
+}
+
+.submenu{
+    position : absolute;
+    background: #1c29e2ea;
+    width: 170%;
+    line-height: 300%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s;
+    list-style:none;
+   
+}
+
+.submenu li a{
+   
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+}
+.menu li:hover  .submenu{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+.menu li:hover{
+   
+    background-color: #17209b;
+}
+
+.botonsalir{
+    width: 30px ;
+    top: 10px;
+    position: relative;
+    left: 670px;
+    box-shadow: 3px 3px 15px #000000c5;
+    border-radius: 50%;
+    margin: 0;
+}
+
+/* ------------------ Fin Diseño menu------------------ */
+
+/* ------------------Diseño inventario------------------ */
+
+.container_inventario {
+    height: 15vw;
+    margin: 2vw;
+    border-width:  1.5px;
+	border-style: solid;   
+    margin-left: 10vw;
+    margin-right: 10vw;
+	background: #ffffff;
+}
+
+.cuadroarriba {
+   
+	border-color: #000000;
+    border-width:  1.5px;
+	border-style: solid;   
+    border-right: none;
+    border-width: none;
+    border-top: none;
+    border-left:none;
+	
+}
+
+.cuadroarriba h1 {
+	margin-top: 15px;
+	margin-left: 10px;
+}
+
+.parrafofiltrar {
+	position: relative;
+	left: 14vw;
+	top: 3vw;
+	max-width: 250px;
+}
+
+form {
+	font-size: 17px;
+}
+
+input {
+	width: 250px;
+	height: 25px;
+}
+
+.contect-select {
+	position: relative;
+	left: 30vw;
+	bottom: 8vw;
+	max-width: 250px;
+	
+}
+
+.contect-select .boton{
+    bottom: 100vw;
+}
+.contect-select select {
+    width: 250px;
+    height: 2vw;
+}
+
+.boton {
+	position: relative;
+	left: 55vw;
+	bottom: 4vw;
+	max-width: 200px;
+}
+
+.boton input {
+	width: 100px;
+	height: 40px;
+	max-width: 200px;
+}
+
+/*----------Diseo tabla-----------*/
+
+#main-container{
+    margin-top: 2vw;
+
+}
+
+table{
+    margin-top: -130;
+    background-color: white;
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.400);
+}
+
+th, td{
+    padding: 10px;
+}
+
+thead{
+    background-color: #1c29e2ea;
+    border-bottom: solid 5px #0f1680;
+    color:white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+
+}
+tr:hover td{
+    background-color: #369681; 
+    color: white; 
+} 
+
+
+/*----------Fin Diseo tabla-----------*/
+
+/* ------------------Fin Diseño inventario------------------ */
+
+
+.ico{
+    background: #000000;
+    position: relative;
+    right: 5px ;
+}

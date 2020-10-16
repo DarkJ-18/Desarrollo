@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to bottom, #00a7f4, #4dbef1, #83d3ed, #b5e5ee, #e6f6f6);
+
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formulario{
+    background: rgba(0, 0, 0, 0.007);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0.5px 0.5px 30px rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+}
+
+.ingresar{
+    background: #4471e4;
+    color: #ffffff;
+    margin: 10px 10px 0px 20px;
+    padding: 10px 60px 10px 60px;
+}

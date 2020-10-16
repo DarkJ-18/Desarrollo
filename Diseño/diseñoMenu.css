@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: #b9d3f1;
+}
+
+.botonsalir{
+    width: 30px ;
+    top: 10px;
+    position: absolute;
+    box-shadow: 3px 3px 15px #000000c5;
+    border-radius: 50%;
+    margin: 0;
+    right: 15px;
+}
+
+.container{
+    position: absolute;
+    width: 780px;
+    height: 505px;
+    left: 50%;
+    top: 50%;
+    margin-left: -390px;
+    margin-top: -252.5px;
+    box-shadow: 0 0 36px #0000003f;
+    
+    
+    border-color: #000000;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.inventario, .proveedores, .productos, .facturas{
+    display: grid;
+    position: relative;
+    width: 225px;
+    height: 188px;
+    border-color: #000000;
+    border-width: 1.5px;
+    border-style: solid;
+    overflow: hidden;
+    font-size: 10px;
+    text-align: center;
+    text-align: center;
+    object-position: center;
+    
+}
+
+.imgmenu{
+    margin-top: 15px;
+    width: 40%;
+}
+
+.inventario{
+    left: 105px;
+    top: 37px;
+}
+
+.proveedores{
+    left: 460px;
+    bottom: 153px;
+}
+
+.productos{
+    left: 105px;
+    bottom: 110px;
+}
+
+.facturas{
+    left: 460px;
+    bottom: 302px;
+}
